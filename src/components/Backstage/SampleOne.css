@@ -1,0 +1,23 @@
+.title {
+    color: #004388;
+}
+.background {
+    background-color: #F8F8F8;
+}
+
+.background2 {
+    background: #F1F9FF !important;
+}
+
+.border1 {
+    border-color: #BAE1FE;
+}
+
+.stories1 {
+    vertical-align: super;
+}
+.stories2 {
+    color: #4CB4FF;
+    font-size: 2rem;
+    font-weight: 500;
+}

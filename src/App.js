@@ -1,19 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
-import SignIn from './components/sign-in/SignIn';
-import SignUp from './components/sign-up/SignUp';
 import Completed from './components/Completed/Completed';
 import UsingClass from './components/Tutorial/UsingClass';
 import Counter from './components/Tutorial/Counter';
 import PropsImplementation from './components/Tutorial/PropsImplementation';
 import ClickEventHandler from './components/Tutorial/ClickEventHandler';
 import EventBind from './components/Tutorial/EventBind';
-
+import PostList from './components/Tutorial/Http/PostList';
+import PostForm from './components/Tutorial/Http/PostForm';
+import UseState from './components/Tutorial/Hooks/UseState';
+import ExpTable from './components/Tutorial/Bootstrap/ExpTable';
+import ChartjsOne from './components/Tutorial/ChartjsOne';
+import SampleOne from './components/Backstage/SampleOne';
 
 function App() {
   return (
     <div className="App">
-      <Completed userName="Prakash" task="Update">
+      <SampleOne/>
+      {/* <ChartjsOne/> */}
+      
+      {/* <UseState/>
+      <ExpTable/> */}
+
+    {/* <PostList/>
+    <PostForm/> */}
+
+      {/* <Completed userName="Prakash" task="Update">
         <p>This is a sample update</p>
         </Completed>
       <Completed userName="Dinesh" task="Delete">
@@ -24,7 +36,7 @@ function App() {
       <Counter/>
       <PropsImplementation userName="Prakash1" task="Update"/>
       <ClickEventHandler></ClickEventHandler>
-      <EventBind/>
+      <EventBind/> */}
 
       <div>
         {/* <header className="App-header">
